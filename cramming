@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require_relative 'bin/main'
+
+# Отправьте уведомление
+# system('osascript -e \'display notification "Ваше приложение запущено" with title "Cramming"\'')

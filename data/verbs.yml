@@ -1,0 +1,1500 @@
+- id: 1
+  verb:
+    en: to be
+    ru: быть
+  simple_past:
+    en: was, were
+    ru: был, были
+  past_participle:
+    en: been
+    ru: было
+- id: 2
+  verb:
+    en: to have
+    ru: иметь
+  simple_past:
+    en: had
+    ru: имел
+  past_participle:
+    en: had
+    ru: имел
+- id: 3
+  verb:
+    en: to do
+    ru: делать
+  simple_past:
+    en: did
+    ru: делал
+  past_participle:
+    en: done
+    ru: сделано
+- id: 4
+  verb:
+    en: to say
+    ru: сказать
+  simple_past:
+    en: said
+    ru: сказал
+  past_participle:
+    en: said
+    ru: сказано
+- id: 5
+  verb:
+    en: to get
+    ru: получать
+  simple_past:
+    en: got
+    ru: получил
+  past_participle:
+    en: got
+    ru: получено
+- id: 6
+  verb:
+    en: to find
+    ru: находить
+  simple_past:
+    en: found
+    ru: нашел
+  past_participle:
+    en: found
+    ru: найдено
+- id: 7
+  verb:
+    en: to tell
+    ru: рассказывать
+  simple_past:
+    en: told
+    ru: рассказал
+  past_participle:
+    en: told
+    ru: рассказано
+- id: 8
+  verb:
+    en: to ask
+    ru: спрашивать
+  simple_past:
+    en: asked
+    ru: спросил
+  past_participle:
+    en: asked
+    ru: спрошено
+- id: 9
+  verb:
+    en: to use
+    ru: использовать
+  simple_past:
+    en: used
+    ru: использовал
+  past_participle:
+    en: used
+    ru: использовано
+- id: 10
+  verb:
+    en: to come
+    ru: приходить
+  simple_past:
+    en: came
+    ru: пришел
+  past_participle:
+    en: come
+    ru: пришло
+- id: 11
+  verb:
+    en: to know
+    ru: знать
+  simple_past:
+    en: knew
+    ru: знал
+  past_participle:
+    en: known
+    ru: известно
+- id: 12
+  verb:
+    en: to go
+    ru: идти
+  simple_past:
+    en: went
+    ru: шел
+  past_participle:
+    en: gone
+    ru: ушло
+- id: 13
+  verb:
+    en: to make
+    ru: создавать
+  simple_past:
+    en: made
+    ru: создал
+  past_participle:
+    en: made
+    ru: создано
+- id: 14
+  verb:
+    en: to give
+    ru: давать
+  simple_past:
+    en: gave
+    ru: дал
+  past_participle:
+    en: given
+    ru: дано
+- id: 15
+  verb:
+    en: to want
+    ru: хотеть
+  simple_past:
+    en: wanted
+    ru: хотел
+  past_participle:
+    en: wanted
+    ru: желаемо
+- id: 16
+  verb:
+    en: to look
+    ru: смотреть
+  simple_past:
+    en: looked
+    ru: смотрел
+  past_participle:
+    en: looked
+    ru: посмотрено
+- id: 17
+  verb:
+    en: to think
+    ru: думать
+  simple_past:
+    en: thought
+    ru: думал
+  past_participle:
+    en: thought
+    ru: подумано
+- id: 18
+  verb:
+    en: to take
+    ru: брать
+  simple_past:
+    en: took
+    ru: взял
+  past_participle:
+    en: taken
+    ru: взято
+- id: 19
+  verb:
+    en: to see
+    ru: видеть
+  simple_past:
+    en: saw
+    ru: видел
+  past_participle:
+    en: seen
+    ru: видено
+- id: 20
+  verb:
+    en: to work
+    ru: работать
+  simple_past:
+    en: worked
+    ru: работал
+  past_participle:
+    en: worked
+    ru: отработано
+- id: 21
+  verb:
+    en: to try
+    ru: стараться
+  simple_past:
+    en: tried
+    ru: старался
+  past_participle:
+    en: tried
+    ru: попытано
+- id: 22
+  verb:
+    en: to leave
+    ru: уезжать
+  simple_past:
+    en: left
+    ru: уехал
+  past_participle:
+    en: left
+    ru: уехано
+- id: 23
+  verb:
+    en: to need
+    ru: нуждаться
+  simple_past:
+    en: needed
+    ru: нуждался
+  past_participle:
+    en: needed
+    ru: нуждано
+- id: 24
+  verb:
+    en: to seem
+    ru: казаться
+  simple_past:
+    en: seemed
+    ru: казалось
+  past_participle:
+    en: seemed
+    ru: показалось
+- id: 25
+  verb:
+    en: to become
+    ru: становиться
+  simple_past:
+    en: became
+    ru: стал
+  past_participle:
+    en: become
+    ru: стало
+- id: 26
+  verb:
+    en: to call
+    ru: звонить
+  simple_past:
+    en: called
+    ru: звонил
+  past_participle:
+    en: called
+    ru: позвонено
+- id: 27
+  verb:
+    en: to feel
+    ru: чувствовать
+  simple_past:
+    en: felt
+    ru: чувствовал
+  past_participle:
+    en: felt
+    ru: почувствовано
+- id: 28
+  verb:
+    en: to put
+    ru: класть
+  simple_past:
+    en: put
+    ru: положил
+  past_participle:
+    en: put
+    ru: положено
+- id: 29
+  verb:
+    en: to keep
+    ru: сохранять
+  simple_past:
+    en: kept
+    ru: сохранял
+  past_participle:
+    en: kept
+    ru: сохранено
+- id: 30
+  verb:
+    en: to help
+    ru: помогать
+  simple_past:
+    en: helped
+    ru: помогал
+  past_participle:
+    en: helped
+    ru: помощено
+- id: 31
+  verb:
+    en: to spend
+    ru: тратить
+  simple_past:
+    en: spent
+    ru: тратил
+  past_participle:
+    en: spent
+    ru: потрачено
+- id: 32
+  verb:
+    en: to begin
+    ru: начинать
+  simple_past:
+    en: began
+    ru: начинал
+  past_participle:
+    en: begun
+    ru: начато
+- id: 33
+  verb:
+    en: to walk
+    ru: гулять
+  simple_past:
+    en: walked
+    ru: гулял
+  past_participle:
+    en: walked
+    ru: прогуляно
+- id: 34
+  verb:
+    en: to close
+    ru: закрывать
+  simple_past:
+    en: closed
+    ru: закрыл
+  past_participle:
+    en: closed
+    ru: закрыто
+- id: 35
+  verb:
+    en: to let
+    ru: позволять
+  simple_past:
+    en: let
+    ru: позволил
+  past_participle:
+    en: let
+    ru: позволено
+- id: 36
+  verb:
+    en: to grow
+    ru: расти
+  simple_past:
+    en: grew
+    ru: вырос
+  past_participle:
+    en: grown
+    ru: выросло
+- id: 37
+  verb:
+    en: to mean
+    ru: иметь в виду
+  simple_past:
+    en: meant
+    ru: подразумевал
+  past_participle:
+    en: meant
+    ru: подразумевалось
+- id: 38
+  verb:
+    en: to believe
+    ru: верить
+  simple_past:
+    en: believed
+    ru: верил
+  past_participle:
+    en: believed
+    ru: веровалось
+- id: 39
+  verb:
+    en: to play
+    ru: играть
+  simple_past:
+    en: played
+    ru: играл
+  past_participle:
+    en: played
+    ru: сыграно
+- id: 40
+  verb:
+    en: to happen
+    ru: случаться
+  simple_past:
+    en: happened
+    ru: случилось
+  past_participle:
+    en: happened
+    ru: произошло
+- id: 41
+  verb:
+    en: to remind
+    ru: напоминать
+  simple_past:
+    en: reminded
+    ru: напомнил
+  past_participle:
+    en: reminded
+    ru: напомнено
+- id: 42
+  verb:
+    en: to include
+    ru: включать
+  simple_past:
+    en: included
+    ru: включил
+  past_participle:
+    en: included
+    ru: включено
+- id: 43
+  verb:
+    en: to set
+    ru: устанавливать
+  simple_past:
+    en: set
+    ru: установил
+  past_participle:
+    en: set
+    ru: установлено
+- id: 44
+  verb:
+    en: to hear
+    ru: слышать
+  simple_past:
+    en: heard
+    ru: слышал
+  past_participle:
+    en: heard
+    ru: услышано
+- id: 45
+  verb:
+    en: to change
+    ru: менять
+  simple_past:
+    en: changed
+    ru: изменил
+  past_participle:
+    en: changed
+    ru: изменено
+- id: 46
+  verb:
+    en: to move
+    ru: переезжать
+  simple_past:
+    en: moved
+    ru: переехал
+  past_participle:
+    en: moved
+    ru: переехано
+- id: 47
+  verb:
+    en: to create
+    ru: создавать
+  simple_past:
+    en: created
+    ru: создал
+  past_participle:
+    en: created
+    ru: создано
+- id: 48
+  verb:
+    en: to appear
+    ru: появляться
+  simple_past:
+    en: appeared
+    ru: появился
+  past_participle:
+    en: appeared
+    ru: появилось
+- id: 49
+  verb:
+    en: to open
+    ru: открывать
+  simple_past:
+    en: opened
+    ru: открыл
+  past_participle:
+    en: opened
+    ru: открыто
+- id: 50
+  verb:
+    en: to stand
+    ru: стоять
+  simple_past:
+    en: stood
+    ru: стоял
+  past_participle:
+    en: stood
+    ru: стояло
+- id: 51
+  verb:
+    en: to serve
+    ru: служить
+  simple_past:
+    en: served
+    ru: служил
+  past_participle:
+    en: served
+    ru: обслужено
+- id: 52
+  verb:
+    en: to run
+    ru: бегать
+  simple_past:
+    en: ran
+    ru: бегал
+  past_participle:
+    en: run
+    ru: пробежано
+- id: 53
+  verb:
+    en: to remember
+    ru: помнить
+  simple_past:
+    en: remembered
+    ru: помнил
+  past_participle:
+    en: remembered
+    ru: запомнено
+- id: 54
+  verb:
+    en: to buy
+    ru: покупать
+  simple_past:
+    en: bought
+    ru: купил
+  past_participle:
+    en: bought
+    ru: куплено
+- id: 55
+  verb:
+    en: to bring
+    ru: приносить
+  simple_past:
+    en: brought
+    ru: принес
+  past_participle:
+    en: brought
+    ru: принесено
+- id: 56
+  verb:
+    en: to win
+    ru: выигрывать
+  simple_past:
+    en: won
+    ru: выиграл
+  past_participle:
+    en: won
+    ru: выиграно
+- id: 57
+  verb:
+    en: to learn
+    ru: учить
+  simple_past:
+    en: learnt
+    ru: учил
+  past_participle:
+    en: learnt
+    ru: выучено
+- id: 58
+  verb:
+    en: to live
+    ru: жить
+  simple_past:
+    en: lived
+    ru: жил
+  past_participle:
+    en: lived
+    ru: прожито
+- id: 59
+  verb:
+    en: to continue
+    ru: продолжать
+  simple_past:
+    en: continued
+    ru: продолжал
+  past_participle:
+    en: continued
+    ru: продолжено
+- id: 60
+  verb:
+    en: to meet
+    ru: встречать
+  simple_past:
+    en: met
+    ru: встретил
+  past_participle:
+    en: met
+    ru: встречено
+- id: 61
+  verb:
+    en: to show
+    ru: показывать
+  simple_past:
+    en: showed
+    ru: показал
+  past_participle:
+    en: shown
+    ru: показано
+- id: 62
+  verb:
+    en: to allow
+    ru: позволять, разрешать
+  simple_past:
+    en: allowed
+    ru: позволил
+  past_participle:
+    en: allowed
+    ru: позволено
+- id: 63
+  verb:
+    en: to write
+    ru: писать
+  simple_past:
+    en: wrote
+    ru: писал
+  past_participle:
+    en: written
+    ru: написано
+- id: 64
+  verb:
+    en: to lose
+    ru: терять, проигрывать
+  simple_past:
+    en: lost
+    ru: потерял
+  past_participle:
+    en: lost
+    ru: потеряно
+- id: 65
+  verb:
+    en: to offer
+    ru: предлагать
+  simple_past:
+    en: offered
+    ru: предложил
+  past_participle:
+    en: offered
+    ru: предложено
+- id: 66
+  verb:
+    en: to sit
+    ru: сидеть
+  simple_past:
+    en: sat
+    ru: сидел
+  past_participle:
+    en: sat
+    ru: просидено
+- id: 67
+  verb:
+    en: to prohibit
+    ru: запрещать
+  simple_past:
+    en: prohibited
+    ru: запретил
+  past_participle:
+    en: prohibited
+    ru: запрещено
+- id: 68
+  verb:
+    en: to read
+    ru: читать
+  simple_past:
+    en: read
+    ru: читал
+  past_participle:
+    en: read
+    ru: прочитано
+- id: 69
+  verb:
+    en: to follow
+    ru: следовать
+  simple_past:
+    en: followed
+    ru: следовал
+  past_participle:
+    en: followed
+    ru: следовано
+- id: 70
+  verb:
+    en: to teach
+    ru: преподавать
+  simple_past:
+    en: taught
+    ru: преподавал
+  past_participle:
+    en: taught
+    ru: преподано
+- id: 71
+  verb:
+    en: to pay
+    ru: платить
+  simple_past:
+    en: paid
+    ru: платил
+  past_participle:
+    en: paid
+    ru: оплачено
+- id: 72
+  verb:
+    en: to speak
+    ru: говорить
+  simple_past:
+    en: spoke
+    ru: говорил
+  past_participle:
+    en: spoken
+    ru: сказано
+- id: 73
+  verb:
+    en: to stop
+    ru: прекращать
+  simple_past:
+    en: stopped
+    ru: прекратил
+  past_participle:
+    en: stopped
+    ru: прекращено
+- id: 74
+  verb:
+    en: to watch
+    ru: смотреть
+  simple_past:
+    en: watched
+    ru: смотрел
+  past_participle:
+    en: watched
+    ru: просмотрено
+- id: 75
+  verb:
+    en: to develop
+    ru: развивать
+  simple_past:
+    en: developed
+    ru: развивал
+  past_participle:
+    en: developed
+    ru: развито
+- id: 76
+  verb:
+    en: to fall
+    ru: падать
+  simple_past:
+    en: fell
+    ru: упал
+  past_participle:
+    en: fallen
+    ru: упало
+- id: 77
+  verb:
+    en: to pass
+    ru: проходить, проезжать
+  simple_past:
+    en: passed
+    ru: прошел
+  past_participle:
+    en: passed
+    ru: прошло
+- id: 78
+  verb:
+    en: to produce
+    ru: производить
+  simple_past:
+    en: produced
+    ru: произвел
+  past_participle:
+    en: produced
+    ru: произведено
+- id: 79
+  verb:
+    en: to carry
+    ru: нести
+  simple_past:
+    en: carried
+    ru: нес
+  past_participle:
+    en: carried
+    ru: перенесено
+- id: 80
+  verb:
+    en: to support
+    ru: поддерживать
+  simple_past:
+    en: supported
+    ru: поддерживал
+  past_participle:
+    en: supported
+    ru: поддержано
+- id: 81
+  verb:
+    en: to thank
+    ru: благодарить
+  simple_past:
+    en: thanked
+    ru: благодарил
+  past_participle:
+    en: thanked
+    ru: поблагодарено
+- id: 82
+  verb:
+    en: to provide
+    ru: снабжать
+  simple_past:
+    en: provided
+    ru: снабжал
+  past_participle:
+    en: provided
+    ru: снабжено
+- id: 83
+  verb:
+    en: to raise
+    ru: поднимать
+  simple_past:
+    en: raised
+    ru: поднял
+  past_participle:
+    en: raised
+    ru: поднято
+- id: 84
+  verb:
+    en: to add
+    ru: добавлять
+  simple_past:
+    en: added
+    ru: добавил
+  past_participle:
+    en: added
+    ru: добавлено
+- id: 85
+  verb:
+    en: to agree
+    ru: соглашаться
+  simple_past:
+    en: agreed
+    ru: согласился
+  past_participle:
+    en: agreed
+    ru: согласовано
+- id: 86
+  verb:
+    en: to understand
+    ru: понимать
+  simple_past:
+    en: understood
+    ru: понял
+  past_participle:
+    en: understood
+    ru: понято
+- id: 87
+  verb:
+    en: to receive
+    ru: получать
+  simple_past:
+    en: received
+    ru: получил
+  past_participle:
+    en: received
+    ru: получено
+- id: 88
+  verb:
+    en: to jump
+    ru: прыгать
+  simple_past:
+    en: jumped
+    ru: прыгал
+  past_participle:
+    en: jumped
+    ru: прыгнуто
+- id: 89
+  verb:
+    en: to choose
+    ru: выбирать
+  simple_past:
+    en: chose
+    ru: выбрал
+  past_participle:
+    en: chosen
+    ru: выбрано
+- id: 90
+  verb:
+    en: to hope
+    ru: надеяться
+  simple_past:
+    en: hoped
+    ru: надеялся
+  past_participle:
+    en: hoped
+    ru: надеялось
+- id: 91
+  verb:
+    en: to draw
+    ru: рисовать
+  simple_past:
+    en: drew
+    ru: рисовал
+  past_participle:
+    en: drawn
+    ru: нарисовано
+- id: 92
+  verb:
+    en: to decide
+    ru: решать
+  simple_past:
+    en: decided
+    ru: решил
+  past_participle:
+    en: decided
+    ru: решено
+- id: 93
+  verb:
+    en: to break
+    ru: ломать
+  simple_past:
+    en: broke
+    ru: сломал
+  past_participle:
+    en: broken
+    ru: сломано
+- id: 94
+  verb:
+    en: to send
+    ru: отправлять
+  simple_past:
+    en: sent
+    ru: отправил
+  past_participle:
+    en: sent
+    ru: отправлено
+- id: 95
+  verb:
+    en: to build
+    ru: строить
+  simple_past:
+    en: built
+    ru: построил
+  past_participle:
+    en: built
+    ru: построено
+- id: 96
+  verb:
+    en: to eat
+    ru: кушать
+  simple_past:
+    en: ate
+    ru: ел
+  past_participle:
+    en: eaten
+    ru: съедено
+- id: 97
+  verb:
+    en: to hit
+    ru: ударять
+  simple_past:
+    en: hit
+    ru: ударил
+  past_participle:
+    en: hit
+    ru: ударено
+- id: 98
+  verb:
+    en: to die
+    ru: умирать
+  simple_past:
+    en: died
+    ru: умер
+  past_participle:
+    en: died
+    ru: умерло
+- id: 99
+  verb:
+    en: to catch
+    ru: ловить
+  simple_past:
+    en: caught
+    ru: поймал
+  past_participle:
+    en: caught
+    ru: поймано
+- id: 100
+  verb:
+    en: to swim
+    ru: плавать
+  simple_past:
+    en: swam
+    ru: плавал
+  past_participle:
+    en: swum
+    ru: проплыто
+- id: 101
+  verb:
+    en: to sell
+    ru: продавать
+  simple_past:
+    en: sold
+    ru: продал
+  past_participle:
+    en: sold
+    ru: продано
+- id: 102
+  verb:
+    en: to return
+    ru: возвращаться
+  simple_past:
+    en: returned
+    ru: вернулся
+  past_participle:
+    en: returned
+    ru: возвращено
+- id: 103
+  verb:
+    en: to kill
+    ru: убивать
+  simple_past:
+    en: killed
+    ru: убил
+  past_participle:
+    en: killed
+    ru: убито
+- id: 104
+  verb:
+    en: to explain
+    ru: объяснять
+  simple_past:
+    en: explained
+    ru: объяснил
+  past_participle:
+    en: explained
+    ru: объяснено
+- id: 105
+  verb:
+    en: to stay
+    ru: оставаться
+  simple_past:
+    en: stayed
+    ru: остался
+  past_participle:
+    en: stayed
+    ru: осталось
+- id: 106
+  verb:
+    en: to cut
+    ru: резать
+  simple_past:
+    en: cut
+    ru: резал
+  past_participle:
+    en: cut
+    ru: порезано
+- id: 107
+  verb:
+    en: to solve
+    ru: решать проблему
+  simple_past:
+    en: solved
+    ru: решил
+  past_participle:
+    en: solved
+    ru: решено
+- id: 108
+  verb:
+    en: to love
+    ru: любить
+  simple_past:
+    en: loved
+    ru: любил
+  past_participle:
+    en: loved
+    ru: любимо
+- id: 109
+  verb:
+    en: to discuss
+    ru: обсуждать
+  simple_past:
+    en: discussed
+    ru: обсуждал
+  past_participle:
+    en: discussed
+    ru: обсуждено
+- id: 110
+  verb:
+    en: to achieve
+    ru: достигать
+  simple_past:
+    en: achieved
+    ru: достиг
+  past_participle:
+    en: achieved
+    ru: достигнуто
+- id: 111
+  verb:
+    en: to avoid
+    ru: избегать
+  simple_past:
+    en: avoided
+    ru: избегал
+  past_participle:
+    en: avoided
+    ru: избегнуто
+- id: 112
+  verb:
+    en: to prepare
+    ru: готовить, подготавливать
+  simple_past:
+    en: prepared
+    ru: подготовил
+  past_participle:
+    en: prepared
+    ru: подготовлено
+- id: 113
+  verb:
+    en: to forget
+    ru: забывать
+  simple_past:
+    en: forgot
+    ru: забыл
+  past_participle:
+    en: forgotten
+    ru: забыто
+- id: 114
+  verb:
+    en: to suggest
+    ru: предлагать, советовать
+  simple_past:
+    en: suggested
+    ru: предложил
+  past_participle:
+    en: suggested
+    ru: предложено
+- id: 115
+  verb:
+    en: to depend
+    ru: зависеть
+  simple_past:
+    en: depended
+    ru: зависел
+  past_participle:
+    en: depended
+    ru: зависимо
+- id: 116
+  verb:
+    en: to translate
+    ru: переводить
+  simple_past:
+    en: translated
+    ru: переводил
+  past_participle:
+    en: translated
+    ru: переведено
+- id: 117
+  verb:
+    en: to approve
+    ru: одобрять
+  simple_past:
+    en: approved
+    ru: одобрил
+  past_participle:
+    en: approved
+    ru: одобрено
+- id: 118
+  verb:
+    en: to cook
+    ru: готовить еду
+  simple_past:
+    en: cooked
+    ru: готовил
+  past_participle:
+    en: cooked
+    ru: приготовлено
+- id: 119
+  verb:
+    en: to study
+    ru: учиться
+  simple_past:
+    en: studied
+    ru: учился
+  past_participle:
+    en: studied
+    ru: изучено
+- id: 120
+  verb:
+    en: to answer
+    ru: отвечать
+  simple_past:
+    en: answered
+    ru: ответил
+  past_participle:
+    en: answered
+    ru: отвечено
+- id: 121
+  verb:
+    en: to smile
+    ru: улыбаться
+  simple_past:
+    en: smiled
+    ru: улыбался
+  past_participle:
+    en: smiled
+    ru: улыбнуто
+- id: 122
+  verb:
+    en: to repeat
+    ru: повторять
+  simple_past:
+    en: repeated
+    ru: повторил
+  past_participle:
+    en: repeated
+    ru: повторено
+- id: 123
+  verb:
+    en: to join
+    ru: присоединять(ся)
+  simple_past:
+    en: joined
+    ru: присоединился
+  past_participle:
+    en: joined
+    ru: присоединено
+- id: 124
+  verb:
+    en: to end
+    ru: заканчивать
+  simple_past:
+    en: ended
+    ru: закончил
+  past_participle:
+    en: ended
+    ru: закончено
+- id: 125
+  verb:
+    en: to order
+    ru: заказывать
+  simple_past:
+    en: ordered
+    ru: заказал
+  past_participle:
+    en: ordered
+    ru: заказано
+- id: 126
+  verb:
+    en: to plan
+    ru: планировать
+  simple_past:
+    en: planned
+    ru: планировал
+  past_participle:
+    en: planned
+    ru: запланировано
+- id: 127
+  verb:
+    en: to dance
+    ru: танцевать
+  simple_past:
+    en: danced
+    ru: танцевал
+  past_participle:
+    en: danced
+    ru: оттанцевано
+- id: 128
+  verb:
+    en: to start
+    ru: начинать
+  simple_past:
+    en: started
+    ru: начал
+  past_participle:
+    en: started
+    ru: начато
+- id: 129
+  verb:
+    en: to finish
+    ru: заканчивать
+  simple_past:
+    en: finished
+    ru: закончил
+  past_participle:
+    en: finished
+    ru: закончено
+- id: 130
+  verb:
+    en: to wear
+    ru: носить
+  simple_past:
+    en: wore
+    ru: носил
+  past_participle:
+    en: worn
+    ru: носилось
+- id: 131
+  verb:
+    en: to ride
+    ru: ехать верхом
+  simple_past:
+    en: rode
+    ru: ездил
+  past_participle:
+    en: ridden
+    ru: проехано
+- id: 132
+  verb:
+    en: to cancel
+    ru: отменять
+  simple_past:
+    en: cancelled
+    ru: отменил
+  past_participle:
+    en: cancelled
+    ru: отменено
+- id: 133
+  verb:
+    en: to lie
+    ru: лежать
+  simple_past:
+    en: lay
+    ru: лежал
+  past_participle:
+    en: lain
+    ru: лежало
+- id: 134
+  verb:
+    en: to cry
+    ru: плакать
+  simple_past:
+    en: cried
+    ru: плакал
+  past_participle:
+    en: cried
+    ru: плакало
+- id: 135
+  verb:
+    en: to drink
+    ru: пить
+  simple_past:
+    en: drank
+    ru: пил
+  past_participle:
+    en: drunk
+    ru: выпито
+- id: 136
+  verb:
+    en: to visit
+    ru: навещать
+  simple_past:
+    en: visited
+    ru: навещал
+  past_participle:
+    en: visited
+    ru: навещено
+- id: 137
+  verb:
+    en: to drive
+    ru: водить
+  simple_past:
+    en: drove
+    ru: водил
+  past_participle:
+    en: driven
+    ru: вождено
+- id: 138
+  verb:
+    en: to wish
+    ru: желать
+  simple_past:
+    en: wished
+    ru: желал
+  past_participle:
+    en: wished
+    ru: пожелано
+- id: 139
+  verb:
+    en: to sing
+    ru: петь
+  simple_past:
+    en: sang
+    ru: пел
+  past_participle:
+    en: sung
+    ru: спето
+- id: 140
+  verb:
+    en: respond
+    ru: отвечать
+  simple_past:
+    en: responded
+    ru: отвечал
+  past_participle:
+    en: responded
+    ru: отвечено
+- id: 141
+  verb:
+    en: to fly
+    ru: летать
+  simple_past:
+    en: flew
+    ru: летал
+  past_participle:
+    en: flown
+    ru: полетано
+- id: 142
+  verb:
+    en: to hold
+    ru: держать
+  simple_past:
+    en: held
+    ru: держал
+  past_participle:
+    en: held
+    ru: держано
+- id: 143
+  verb:
+    en: to talk
+    ru: болтать
+  simple_past:
+    en: talked
+    ru: болтал
+  past_participle:
+    en: talked
+    ru: поболтано
+- id: 144
+  verb:
+    en: to fear
+    ru: бояться
+  simple_past:
+    en: feared
+    ru: боялся
+  past_participle:
+    en: feared
+    ru: испугано
+- id: 145
+  verb:
+    en: to shout
+    ru: кричать
+  simple_past:
+    en: shouted
+    ru: кричал
+  past_participle:
+    en: shouted
+    ru: прокричано
+- id: 146
+  verb:
+    en: to turn
+    ru: поворачивать
+  simple_past:
+    en: turned
+    ru: повернул
+  past_participle:
+    en: turned
+    ru: повернуто
+- id: 147
+  verb:
+    en: to search
+    ru: искать
+  simple_past:
+    en: searched
+    ru: искал
+  past_participle:
+    en: searched
+    ru: найдено
+- id: 148
+  verb:
+    en: to listen
+    ru: слушать
+  simple_past:
+    en: listened
+    ru: слушал
+  past_participle:
+    en: listened
+    ru: послушано
+- id: 149
+  verb:
+    en: to connect
+    ru: соединять
+  simple_past:
+    en: connected
+    ru: соединил
+  past_participle:
+    en: connected
+    ru: соединено
+- id: 150
+  verb:
+    en: to travel
+    ru: путешествовать
+  simple_past:
+    en: travelled
+    ru: путешествовал
+  past_participle:
+    en: travelled
+    ru: путешествовано
