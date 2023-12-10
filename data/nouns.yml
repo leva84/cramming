@@ -1,0 +1,1050 @@
+- id: 1
+  noun:
+    en: action
+    ru: действие
+  plural:
+    en: actions
+    ru: действия
+- id: 2
+  noun:
+    en: activity
+    ru: деятельность, активность, мероприятие
+  plural:
+    en: activities
+    ru: деятельности, активности, мероприятия
+- id: 3
+  noun:
+    en: age
+    ru: возраст
+  plural:
+    en: ages
+    ru: возрасты
+- id: 4
+  noun:
+    en: air
+    ru: воздух
+  plural:
+    en: air
+    ru: воздух
+- id: 5
+  noun:
+    en: animal
+    ru: животное, зверь
+  plural:
+    en: animals
+    ru: животные, звери
+- id: 6
+  noun:
+    en: area
+    ru: область, участок
+  plural:
+    en: areas
+    ru: области, участки
+- id: 7
+  noun:
+    en: authority
+    ru: авторитет, крупный специалист, орган власти
+  plural:
+    en: authorities
+    ru: авторитеты, крупные специалисты, органы власти
+- id: 8
+  noun:
+    en: bank
+    ru: банк
+  plural:
+    en: banks
+    ru: банки
+- id: 9
+  noun:
+    en: body
+    ru: тело
+  plural:
+    en: bodies
+    ru: тела
+- id: 10
+  noun:
+    en: book
+    ru: книга
+  plural:
+    en: books
+    ru: книги
+- id: 11
+  noun:
+    en: building
+    ru: здание
+  plural:
+    en: buildings
+    ru: здания
+- id: 12
+  noun:
+    en: business
+    ru: дело, работа, бизнес
+  plural:
+    en: businesses
+    ru: дела, работы, бизнесы
+- id: 13
+  noun:
+    en: car
+    ru: автомобиль, машина
+  plural:
+    en: cars
+    ru: автомобили, машины
+- id: 14
+  noun:
+    en: case
+    ru: случай, дело, пример
+  plural:
+    en: cases
+    ru: случаи, дела, примеры
+- id: 15
+  noun:
+    en: centre
+    ru: центр
+  plural:
+    en: centres
+    ru: центры
+- id: 16
+  noun:
+    en: century
+    ru: век
+  plural:
+    en: centuries
+    ru: века
+- id: 17
+  noun:
+    en: change
+    ru: сдача
+  plural:
+    en: changes
+    ru: сдачи
+- id: 18
+  noun:
+    en: child
+    ru: ребёнок
+  plural:
+    en: children
+    ru: дети
+- id: 19
+  noun:
+    en: city
+    ru: город
+  plural:
+    en: cities
+    ru: города
+- id: 20
+  noun:
+    en: community
+    ru: сообщество, общество
+  plural:
+    en: communities
+    ru: сообщества, общества
+- id: 21
+  noun:
+    en: company
+    ru: компания
+  plural:
+    en: companies
+    ru: компании
+- id: 22
+  noun:
+    en: condition
+    ru: состояние, условие
+  plural:
+    en: conditions
+    ru: состояния, условия
+- id: 23
+  noun:
+    en: control
+    ru: контроль
+  plural:
+    en: controls
+    ru: контроли
+- id: 24
+  noun:
+    en: country
+    ru: страна
+  plural:
+    en: countries
+    ru: страны
+- id: 25
+  noun:
+    en: course
+    ru: курс, блюдо
+  plural:
+    en: courses
+    ru: курсы, блюда
+- id: 26
+  noun:
+    en: court
+    ru: суд
+  plural:
+    en: courts
+    ru: суды
+- id: 27
+  noun:
+    en: day
+    ru: день
+  plural:
+    en: days
+    ru: дни
+- id: 28
+  noun:
+    en: decision
+    ru: решение
+  plural:
+    en: decisions
+    ru: решения
+- id: 29
+  noun:
+    en: development
+    ru: развитие
+  plural:
+    en: developments
+    ru: развития
+- id: 30
+  noun:
+    en: door
+    ru: дверь
+  plural:
+    en: doors
+    ru: двери
+- id: 31
+  noun:
+    en: education
+    ru: образование
+  plural:
+    en: educations
+    ru: образования
+- id: 32
+  noun:
+    en: effect
+    ru: эффект
+  plural:
+    en: effects
+    ru: эффекты
+- id: 33
+  noun:
+    en: end
+    ru: конец
+  plural:
+    en: ends
+    ru: концы
+- id: 34
+  noun:
+    en: example
+    ru: пример
+  plural:
+    en: examples
+    ru: примеры
+- id: 35
+  noun:
+    en: experience
+    ru: опыт
+  plural:
+    en: experiences
+    ru: опыты
+- id: 36
+  noun:
+    en: eye
+    ru: глаз
+  plural:
+    en: eyes
+    ru: глаза
+- id: 37
+  noun:
+    en: face
+    ru: лицо
+  plural:
+    en: faces
+    ru: лица
+- id: 38
+  noun:
+    en: fact
+    ru: факт
+  plural:
+    en: facts
+    ru: факты
+- id: 39
+  noun:
+    en: family
+    ru: семья
+  plural:
+    en: families
+    ru: семьи
+- id: 40
+  noun:
+    en: father
+    ru: отец, папа
+  plural:
+    en: fathers
+    ru: отцы, папы
+- id: 41
+  noun:
+    en: field
+    ru: поле, сфера деятельности
+  plural:
+    en: fields
+    ru: поля, сферы деятельности
+- id: 42
+  noun:
+    en: figure
+    ru: фигура, цифра
+  plural:
+    en: figures
+    ru: фигуры, цифры
+- id: 43
+  noun:
+    en: flat
+    ru: квартира
+  plural:
+    en: flats
+    ru: квартиры
+- id: 44
+  noun:
+    en: food
+    ru: еда
+  plural:
+    en: foods
+    ru: продукты питания
+- id: 45
+  noun:
+    en: form
+    ru: форма
+  plural:
+    en: forms
+    ru: формы
+- id: 46
+  noun:
+    en: friend
+    ru: друг
+  plural:
+    en: friends
+    ru: друзья
+- id: 47
+  noun:
+    en: game
+    ru: игра
+  plural:
+    en: games
+    ru: игры
+- id: 48
+  noun:
+    en: girl
+    ru: девочка
+  plural:
+    en: girls
+    ru: девочки
+- id: 49
+  noun:
+    en: government
+    ru: правительство
+  plural:
+    en: governments
+    ru: правительства
+- id: 50
+  noun:
+    en: group
+    ru: группа
+  plural:
+    en: groups
+    ru: группы
+- id: 51
+  noun:
+    en: guy
+    ru: парень, молодой человек
+  plural:
+    en: guys
+    ru: парни, молодые люди
+- id: 52
+  noun:
+    en: hand
+    ru: рука, кисть
+  plural:
+    en: hands
+    ru: руки, кисти
+- id: 53
+  noun:
+    en: head
+    ru: голова
+  plural:
+    en: heads
+    ru: головы
+- id: 54
+  noun:
+    en: health
+    ru: здоровье
+  plural:
+    en: healths
+    ru: здоровья
+- id: 55
+  noun:
+    en: history
+    ru: история
+  plural:
+    en: histories
+    ru: истории
+- id: 56
+  noun:
+    en: home
+    ru: дом
+  plural:
+    en: homes
+    ru: дома
+- id: 57
+  noun:
+    en: hour
+    ru: час
+  plural:
+    en: hours
+    ru: часы
+- id: 58
+  noun:
+    en: house
+    ru: дом
+  plural:
+    en: houses
+    ru: дома
+- id: 59
+  noun:
+    en: idea
+    ru: идея
+  plural:
+    en: ideas
+    ru: идеи
+- id: 60
+  noun:
+    en: industry
+    ru: индустрия, производство
+  plural:
+    en: industries
+    ru: индустрии, производства
+- id: 61
+  noun:
+    en: information
+    ru: информация
+  plural:
+    en: information
+    ru: информации
+- id: 62
+  noun:
+    en: interest
+    ru: интерес
+  plural:
+    en: interests
+    ru: интересы
+- id: 63
+  noun:
+    en: job
+    ru: работа, задание
+  plural:
+    en: jobs
+    ru: работы, задания
+- id: 64
+  noun:
+    en: kid
+    ru: ребёнок
+  plural:
+    en: kids
+    ru: дети
+- id: 65
+  noun:
+    en: kind
+    ru: вид, сорт
+  plural:
+    en: kinds
+    ru: виды, сорта
+- id: 66
+  noun:
+    en: language
+    ru: язык
+  plural:
+    en: languages
+    ru: языки
+- id: 67
+  noun:
+    en: law
+    ru: закон
+  plural:
+    en: laws
+    ru: законы
+- id: 68
+  noun:
+    en: level
+    ru: уровень
+  plural:
+    en: levels
+    ru: уровни
+- id: 69
+  noun:
+    en: life
+    ru: жизнь
+  plural:
+    en: lives
+    ru: жизни
+- id: 70
+  noun:
+    en: line
+    ru: линия, черта, граница, очередь
+  plural:
+    en: lines
+    ru: линии, черты, границы, очереди
+- id: 71
+  noun:
+    en: love
+    ru: любовь
+  plural:
+    en: loves
+    ru: любви
+- id: 72
+  noun:
+    en: man
+    ru: мужчина
+  plural:
+    en: men
+    ru: мужчины
+- id: 73
+  noun:
+    en: manager
+    ru: менеджер, управляющий
+  plural:
+    en: managers
+    ru: менеджеры, управляющие
+- id: 74
+  noun:
+    en: manner
+    ru: манера, поведение
+  plural:
+    en: manners
+    ru: манеры, поведения
+- id: 75
+  noun:
+    en: market
+    ru: рынок
+  plural:
+    en: markets
+    ru: рынки
+- id: 76
+  noun:
+    en: million
+    ru: миллион
+  plural:
+    en: millions
+    ru: миллионы
+- id: 77
+  noun:
+    en: mind
+    ru: ум, разум
+  plural:
+    en: minds
+    ru: умы, разумы
+- id: 78
+  noun:
+    en: minute
+    ru: минута
+  plural:
+    en: minutes
+    ru: минуты
+- id: 79
+  noun:
+    en: moment
+    ru: момент
+  plural:
+    en: moments
+    ru: моменты
+- id: 80
+  noun:
+    en: money
+    ru: деньги
+  plural:
+    en: money
+    ru: деньги
+- id: 81
+  noun:
+    en: month
+    ru: месяц
+  plural:
+    en: months
+    ru: месяцы
+- id: 82
+  noun:
+    en: morning
+    ru: утро
+  plural:
+    en: mornings
+    ru: утра
+- id: 83
+  noun:
+    en: mother
+    ru: мать, мама
+  plural:
+    en: mothers
+    ru: матери, мамы
+- id: 84
+  noun:
+    en: name
+    ru: имя, название
+  plural:
+    en: names
+    ru: имена, названия
+- id: 85
+  noun:
+    en: need
+    ru: необходимость, нужда
+  plural:
+    en: needs
+    ru: необходимости, нужды
+- id: 86
+  noun:
+    en: night
+    ru: ночь
+  plural:
+    en: nights
+    ru: ночи
+- id: 87
+  noun:
+    en: number
+    ru: номер, число, цифра
+  plural:
+    en: numbers
+    ru: номера, числа, цифры
+- id: 88
+  noun:
+    en: office
+    ru: офис
+  plural:
+    en: offices
+    ru: офисы
+- id: 89
+  noun:
+    en: order
+    ru: порядок, заказ
+  plural:
+    en: orders
+    ru: порядки, заказы
+- id: 90
+  noun:
+    en: part
+    ru: часть
+  plural:
+    en: parts
+    ru: части
+- id: 91
+  noun:
+    en: party
+    ru: вечеринка, партия
+  plural:
+    en: parties
+    ru: вечеринки, партии
+- id: 92
+  noun:
+    en: people
+    ru: люди
+  plural:
+    en: people
+    ru: люди
+- id: 93
+  noun:
+    en: place
+    ru: место
+  plural:
+    en: places
+    ru: места
+- id: 94
+  noun:
+    en: point
+    ru: точка, пункт
+  plural:
+    en: points
+    ru: точки, пункты
+- id: 95
+  noun:
+    en: power
+    ru: сила, мощность, власть
+  plural:
+    en: powers
+    ru: силы, мощности, власти
+- id: 96
+  noun:
+    en: problem
+    ru: проблема
+  plural:
+    en: problems
+    ru: проблемы
+- id: 97
+  noun:
+    en: product
+    ru: продукт, изделие
+  plural:
+    en: products
+    ru: продукты, изделия
+- id: 98
+  noun:
+    en: program
+    ru: программа
+  plural:
+    en: programs
+    ru: программы
+- id: 99
+  noun:
+    en: question
+    ru: вопрос
+  plural:
+    en: questions
+    ru: вопросы
+- id: 100
+  noun:
+    en: rate
+    ru: ставка, тариф, скорость
+  plural:
+    en: rates
+    ru: ставки, тарифы, скорости
+- id: 101
+  noun:
+    en: reason
+    ru: причина, основание
+  plural:
+    en: reasons
+    ru: причины, основания
+- id: 102
+  noun:
+    en: relation
+    ru: отношение, связь
+  plural:
+    en: relations
+    ru: отношения, связи
+- id: 103
+  noun:
+    en: result
+    ru: результат
+  plural:
+    en: results
+    ru: результаты
+- id: 104
+  noun:
+    en: right
+    ru: право
+  plural:
+    en: rights
+    ru: права
+- id: 105
+  noun:
+    en: room
+    ru: комната
+  plural:
+    en: rooms
+    ru: комнаты
+- id: 106
+  noun:
+    en: school
+    ru: школа
+  plural:
+    en: schools
+    ru: школы
+- id: 107
+  noun:
+    en: service
+    ru: услуга, сервис
+  plural:
+    en: services
+    ru: услуги, сервисы
+- id: 108
+  noun:
+    en: side
+    ru: сторона
+  plural:
+    en: sides
+    ru: стороны
+- id: 109
+  noun:
+    en: society
+    ru: общество
+  plural:
+    en: societies
+    ru: общества
+- id: 110
+  noun:
+    en: state
+    ru: состояние, штат
+  plural:
+    en: states
+    ru: состояния, штаты
+- id: 111
+  noun:
+    en: story
+    ru: история, рассказ
+  plural:
+    en: stories
+    ru: истории, рассказы
+- id: 112
+  noun:
+    en: student
+    ru: студент
+  plural:
+    en: students
+    ru: студенты
+- id: 113
+  noun:
+    en: study
+    ru: изучение, учеба
+  plural:
+    en: studies
+    ru: изучения, учебы
+- id: 114
+  noun:
+    en: system
+    ru: система
+  plural:
+    en: systems
+    ru: системы
+- id: 115
+  noun:
+    en: team
+    ru: команда
+  plural:
+    en: teams
+    ru: команды
+- id: 116
+  noun:
+    en: thing
+    ru: вещь, предмет
+  plural:
+    en: things
+    ru: вещи, предметы
+- id: 117
+  noun:
+    en: time
+    ru: время
+  plural:
+    en: times
+    ru: времена
+- id: 118
+  noun:
+    en: type
+    ru: тип, вид
+  plural:
+    en: types
+    ru: типы, виды
+- id: 119
+  noun:
+    en: view
+    ru: вид, взгляд
+  plural:
+    en: views
+    ru: виды, взгляды
+- id: 120
+  noun:
+    en: way
+    ru: путь, способ
+  plural:
+    en: ways
+    ru: пути, способы
+- id: 121
+  noun:
+    en: week
+    ru: неделя
+  plural:
+    en: weeks
+    ru: недели
+- id: 122
+  noun:
+    en: woman
+    ru: женщина
+  plural:
+    en: women
+    ru: женщины
+- id: 123
+  noun:
+    en: word
+    ru: слово
+  plural:
+    en: words
+    ru: слова
+- id: 124
+  noun:
+    en: work
+    ru: работа
+  plural:
+    en: works
+    ru: работы
+- id: 125
+  noun:
+    en: world
+    ru: мир
+  plural:
+    en: worlds
+    ru: миры
+- id: 126
+  noun:
+    en: year
+    ru: год
+  plural:
+    en: years
+    ru: годы
+- id: 127
+  noun:
+    en: account
+    ru: учетная запись, счет
+  plural:
+    en: accounts
+    ru: учетные записи, счета
+- id: 128
+  noun:
+    en: agreement
+    ru: соглашение
+  plural:
+    en: agreements
+    ru: соглашения
+- id: 129
+  noun:
+    en: amount
+    ru: количество
+  plural:
+    en: amounts
+    ru: количества
+- id: 130
+  noun:
+    en: answer
+    ru: ответ
+  plural:
+    en: answers
+    ru: ответы
+- id: 131
+  noun:
+    en: approach
+    ru: подход
+  plural:
+    en: approaches
+    ru: подходы
+- id: 132
+  noun:
+    en: attempt
+    ru: попытка
+  plural:
+    en: attempts
+    ru: попытки
+- id: 133
+  noun:
+    en: attention
+    ru: внимание
+  plural:
+    en: attentions
+    ru: внимания
+- id: 134
+  noun:
+    en: benefit
+    ru: выгода, польза
+  plural:
+    en: benefits
+    ru: выгоды, пользы
+- id: 135
+  noun:
+    en: charge
+    ru: обвинение, заряд
+  plural:
+    en: charges
+    ru: обвинения, заряды
+- id: 136
+  noun:
+    en: choice
+    ru: выбор
+  plural:
+    en: choices
+    ru: выборы
+- id: 137
+  noun:
+    en: concern
+    ru: забота, беспокойство
+  plural:
+    en: concerns
+    ru: заботы, беспокойства
+- id: 138
+  noun:
+    en: cost
+    ru: стоимость, цена
+  plural:
+    en: costs
+    ru: стоимости, цены
+- id: 139
+  noun:
+    en: danger
+    ru: опасность
+  plural:
+    en: dangers
+    ru: опасности
+- id: 140
+  noun:
+    en: difference
+    ru: разница
+  plural:
+    en: differences
+    ru: различия
+- id: 141
+  noun:
+    en: difficulty
+    ru: трудность
+  plural:
+    en: difficulties
+    ru: трудности
+- id: 142
+  noun:
+    en: doubt
+    ru: сомнение
+  plural:
+    en: doubts
+    ru: сомнения
+- id: 143
+  noun:
+    en: effect
+    ru: эффект
+  plural:
+    en: effects
+    ru: эффекты
+- id: 144
+  noun:
+    en: effort
+    ru: усилие
+  plural:
+    en: efforts
+    ru: усилия
+- id: 145
+  noun:
+    en: example
+    ru: пример
+  plural:
+    en: examples
+    ru: примеры
+- id: 146
+  noun:
+    en: fact
+    ru: факт
+  plural:
+    en: facts
+    ru: факты
+- id: 147
+  noun:
+    en: force
+    ru: сила
+  plural:
+    en: forces
+    ru: силы
+- id: 148
+  noun:
+    en: ground
+    ru: земля, почва
+  plural:
+    en: grounds
+    ru: земли, почвы
+- id: 149
+  noun:
+    en: group
+    ru: группа
+  plural:
+    en: groups
+    ru: группы
+- id: 150
+  noun:
+    en: growth
+    ru: рост, увеличение
+  plural:
+    en: growths
+    ru: росты, увеличения

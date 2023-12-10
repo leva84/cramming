@@ -1,34 +1,34 @@
 require_relative 'model_base'
 
-module Verbs
-  class VerbsBase < ModelBase
+module Adjectives
+  class AdjectivesBase < ModelBase
     class << self
       def data_file_path
-        'data/verbs.yml'
+        'data/adjectives.yml'
       end
     end
   end
 
-  class Verb < VerbsBase
+  class Adjective < AdjectivesBase
     class << self
       def data_key
-        'verb'
+        'adjective'
       end
     end
   end
 
-  class SimplePast < VerbsBase
+  class Comparative < AdjectivesBase
     class << self
       def data_key
-        'simple_past'
+        'comparative'
       end
     end
   end
 
-  class PastParticiple < VerbsBase
+  class Superlative < AdjectivesBase
     class << self
       def data_key
-        'past_participle'
+        'superlative'
       end
     end
   end

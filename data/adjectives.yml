@@ -1,0 +1,1500 @@
+- id: 1
+  adjective:
+    en: good
+    ru: хороший
+  comparative:
+    en: better
+    ru: лучше
+  superlative:
+    en: best
+    ru: лучший
+- id: 2
+  adjective:
+    en: new
+    ru: новый
+  comparative:
+    en: newer
+    ru: более новый
+  superlative:
+    en: newest
+    ru: самый новый
+- id: 3
+  adjective:
+    en: first
+    ru: первый
+  comparative:
+    en: more first
+    ru: первее
+  superlative:
+    en: most first
+    ru: самый первый
+- id: 4
+  adjective:
+    en: last
+    ru: последний
+  comparative:
+    en: more last
+    ru: более последний
+  superlative:
+    en: most last
+    ru: самый последний
+- id: 5
+  adjective:
+    en: long
+    ru: длинный
+  comparative:
+    en: longer
+    ru: длиннее
+  superlative:
+    en: longest
+    ru: самый длинный
+- id: 6
+  adjective:
+    en: great
+    ru: великий
+  comparative:
+    en: greater
+    ru: больший
+  superlative:
+    en: greatest
+    ru: наибольший
+- id: 7
+  adjective:
+    en: little
+    ru: маленький
+  comparative:
+    en: littler
+    ru: меньше
+  superlative:
+    en: littlest
+    ru: самый маленький
+- id: 8
+  adjective:
+    en: own
+    ru: собственный
+  comparative:
+    en: more own
+    ru: более собственный
+  superlative:
+    en: most own
+    ru: самый собственный
+- id: 9
+  adjective:
+    en: other
+    ru: другой
+  comparative:
+    en: more other
+    ru: более другой
+  superlative:
+    en: most other
+    ru: самый другой
+- id: 10
+  adjective:
+    en: old
+    ru: старый
+  comparative:
+    en: older
+    ru: старше
+  superlative:
+    en: oldest
+    ru: самый старый
+- id: 11
+  adjective:
+    en: right
+    ru: правильный
+  comparative:
+    en: more right
+    ru: более правильный
+  superlative:
+    en: most right
+    ru: самый правильный
+- id: 12
+  adjective:
+    en: big
+    ru: большой
+  comparative:
+    en: bigger
+    ru: больше
+  superlative:
+    en: biggest
+    ru: самый большой
+- id: 13
+  adjective:
+    en: high
+    ru: высокий
+  comparative:
+    en: higher
+    ru: выше
+  superlative:
+    en: highest
+    ru: самый высокий
+- id: 14
+  adjective:
+    en: different
+    ru: разный
+  comparative:
+    en: more different
+    ru: более разный
+  superlative:
+    en: most different
+    ru: наиболее разный
+- id: 15
+  adjective:
+    en: small
+    ru: маленький
+  comparative:
+    en: smaller
+    ru: меньше
+  superlative:
+    en: smallest
+    ru: самый маленький
+- id: 16
+  adjective:
+    en: large
+    ru: большой
+  comparative:
+    en: larger
+    ru: больше
+  superlative:
+    en: largest
+    ru: самый большой
+- id: 17
+  adjective:
+    en: next
+    ru: следующий
+  comparative:
+    en: more next
+    ru: более следующий
+  superlative:
+    en: most next
+    ru: самый следующий
+- id: 18
+  adjective:
+    en: early
+    ru: ранний
+  comparative:
+    en: earlier
+    ru: раньше
+  superlative:
+    en: earliest
+    ru: самый ранний
+- id: 19
+  adjective:
+    en: young
+    ru: молодой
+  comparative:
+    en: younger
+    ru: моложе
+  superlative:
+    en: youngest
+    ru: самый молодой
+- id: 20
+  adjective:
+    en: important
+    ru: важный
+  comparative:
+    en: more important
+    ru: более важный
+  superlative:
+    en: most important
+    ru: наиболее важный
+- id: 21
+  adjective:
+    en: few
+    ru: несколько
+  comparative:
+    en: fewer
+    ru: меньше
+  superlative:
+    en: fewest
+    ru: наименьшее количество
+- id: 22
+  adjective:
+    en: public
+    ru: общественный
+  comparative:
+    en: more public
+    ru: более общественный
+  superlative:
+    en: most public
+    ru: самый общественный
+- id: 23
+  adjective:
+    en: bad
+    ru: плохой
+  comparative:
+    en: worse
+    ru: хуже
+  superlative:
+    en: worst
+    ru: худший
+- id: 24
+  adjective:
+    en: same
+    ru: тот же самый
+  comparative:
+    en: more same
+    ru: более тот же самый
+  superlative:
+    en: most same
+    ru: самый тот же самый
+- id: 25
+  adjective:
+    en: able
+    ru: способный
+  comparative:
+    en: more able
+    ru: более способный
+  superlative:
+    en: most able
+    ru: наиболее способный
+- id: 26
+  adjective:
+    en: free
+    ru: свободный
+  comparative:
+    en: freer
+    ru: более свободный
+  superlative:
+    en: freest
+    ru: наиболее свободный
+- id: 27
+  adjective:
+    en: full
+    ru: полный
+  comparative:
+    en: fuller
+    ru: более полный
+  superlative:
+    en: fullest
+    ru: наиболее полный
+- id: 28
+  adjective:
+    en: hard
+    ru: тяжелый
+  comparative:
+    en: harder
+    ru: более тяжелый
+  superlative:
+    en: hardest
+    ru: наиболее тяжелый
+- id: 29
+  adjective:
+    en: late
+    ru: поздний
+  comparative:
+    en: later
+    ru: более поздний
+  superlative:
+    en: latest
+    ru: самый поздний
+- id: 30
+  adjective:
+    en: low
+    ru: низкий
+  comparative:
+    en: lower
+    ru: ниже
+  superlative:
+    en: lowest
+    ru: самый низкий
+- id: 31
+  adjective:
+    en: major
+    ru: главный
+  comparative:
+    en: more major
+    ru: более главный
+  superlative:
+    en: most major
+    ru: наиболее главный
+- id: 32
+  adjective:
+    en: open
+    ru: открытый
+  comparative:
+    en: more open
+    ru: более открытый
+  superlative:
+    en: most open
+    ru: наиболее открытый
+- id: 33
+  adjective:
+    en: possible
+    ru: возможный
+  comparative:
+    en: more possible
+    ru: более возможный
+  superlative:
+    en: most possible
+    ru: наиболее возможный
+- id: 34
+  adjective:
+    en: present
+    ru: настоящий
+  comparative:
+    en: more present
+    ru: более настоящий
+  superlative:
+    en: most present
+    ru: наиболее настоящий
+- id: 35
+  adjective:
+    en: real
+    ru: реальный
+  comparative:
+    en: more real
+    ru: более реальный
+  superlative:
+    en: most real
+    ru: наиболее реальный
+- id: 36
+  adjective:
+    en: recent
+    ru: недавний
+  comparative:
+    en: more recent
+    ru: более недавний
+  superlative:
+    en: most recent
+    ru: наиболее недавний
+- id: 37
+  adjective:
+    en: red
+    ru: красный
+  comparative:
+    en: redder
+    ru: более красный
+  superlative:
+    en: reddest
+    ru: самый красный
+- id: 38
+  adjective:
+    en: sure
+    ru: уверенный
+  comparative:
+    en: surer
+    ru: более уверенный
+  superlative:
+    en: surest
+    ru: наиболее уверенный
+- id: 39
+  adjective:
+    en: wide
+    ru: широкий
+  comparative:
+    en: wider
+    ru: шире
+  superlative:
+    en: widest
+    ru: самый широкий
+- id: 40
+  adjective:
+    en: young
+    ru: молодой
+  comparative:
+    en: younger
+    ru: моложе
+  superlative:
+    en: youngest
+    ru: самый молодой
+- id: 41
+  adjective:
+    en: black
+    ru: черный
+  comparative:
+    en: more black
+    ru: более черный
+  superlative:
+    en: most black
+    ru: самый черный
+- id: 42
+  adjective:
+    en: certain
+    ru: определенный
+  comparative:
+    en: more certain
+    ru: более определенный
+  superlative:
+    en: most certain
+    ru: наиболее определенный
+- id: 43
+  adjective:
+    en: close
+    ru: близкий
+  comparative:
+    en: closer
+    ru: ближе
+  superlative:
+    en: closest
+    ru: самый близкий
+- id: 44
+  adjective:
+    en: common
+    ru: общий
+  comparative:
+    en: more common
+    ru: более общий
+  superlative:
+    en: most common
+    ru: наиболее общий
+- id: 45
+  adjective:
+    en: easy
+    ru: легкий
+  comparative:
+    en: easier
+    ru: легче
+  superlative:
+    en: easiest
+    ru: самый легкий
+- id: 46
+  adjective:
+    en: likely
+    ru: вероятный
+  comparative:
+    en: more likely
+    ru: более вероятный
+  superlative:
+    en: most likely
+    ru: наиболее вероятный
+- id: 47
+  adjective:
+    en: low
+    ru: низкий
+  comparative:
+    en: lower
+    ru: ниже
+  superlative:
+    en: lowest
+    ru: самый низкий
+- id: 48
+  adjective:
+    en: necessary
+    ru: необходимый
+  comparative:
+    en: more necessary
+    ru: более необходимый
+  superlative:
+    en: most necessary
+    ru: наиболее необходимый
+- id: 49
+  adjective:
+    en: possible
+    ru: возможный
+  comparative:
+    en: more possible
+    ru: более возможный
+  superlative:
+    en: most possible
+    ru: наиболее возможный
+- id: 50
+  adjective:
+    en: real
+    ru: реальный
+  comparative:
+    en: more real
+    ru: более реальный
+  superlative:
+    en: most real
+    ru: наиболее реальный
+- id: 51
+  adjective:
+    en: short
+    ru: короткий
+  comparative:
+    en: shorter
+    ru: короче
+  superlative:
+    en: shortest
+    ru: самый короткий
+- id: 52
+  adjective:
+    en: simple
+    ru: простой
+  comparative:
+    en: simpler
+    ru: проще
+  superlative:
+    en: simplest
+    ru: самый простой
+- id: 53
+  adjective:
+    en: single
+    ru: одиночный
+  comparative:
+    en: more single
+    ru: более одиночный
+  superlative:
+    en: most single
+    ru: наиболее одиночный
+- id: 54
+  adjective:
+    en: special
+    ru: специальный
+  comparative:
+    en: more special
+    ru: более специальный
+  superlative:
+    en: most special
+    ru: наиболее специальный
+- id: 55
+  adjective:
+    en: true
+    ru: истинный
+  comparative:
+    en: truer
+    ru: более истинный
+  superlative:
+    en: truest
+    ru: наиболее истинный
+- id: 56
+  adjective:
+    en: white
+    ru: белый
+  comparative:
+    en: whiter
+    ru: более белый
+  superlative:
+    en: whitest
+    ru: самый белый
+- id: 57
+  adjective:
+    en: whole
+    ru: целый
+  comparative:
+    en: more whole
+    ru: более целый
+  superlative:
+    en: most whole
+    ru: наиболее целый
+- id: 58
+  adjective:
+    en: clear
+    ru: ясный
+  comparative:
+    en: clearer
+    ru: более ясный
+  superlative:
+    en: clearest
+    ru: наиболее ясный
+- id: 59
+  adjective:
+    en: dry
+    ru: сухой
+  comparative:
+    en: drier
+    ru: более сухой
+  superlative:
+    en: driest
+    ru: самый сухой
+- id: 60
+  adjective:
+    en: easy
+    ru: легкий
+  comparative:
+    en: easier
+    ru: легче
+  superlative:
+    en: easiest
+    ru: самый легкий
+- id: 61
+  adjective:
+    en: free
+    ru: свободный
+  comparative:
+    en: freer
+    ru: более свободный
+  superlative:
+    en: freest
+    ru: наиболее свободный
+- id: 62
+  adjective:
+    en: full
+    ru: полный
+  comparative:
+    en: fuller
+    ru: более полный
+  superlative:
+    en: fullest
+    ru: наиболее полный
+- id: 63
+  adjective:
+    en: low
+    ru: низкий
+  comparative:
+    en: lower
+    ru: ниже
+  superlative:
+    en: lowest
+    ru: самый низкий
+- id: 64
+  adjective:
+    en: new
+    ru: новый
+  comparative:
+    en: newer
+    ru: более новый
+  superlative:
+    en: newest
+    ru: самый новый
+- id: 65
+  adjective:
+    en: old
+    ru: старый
+  comparative:
+    en: older
+    ru: старше
+  superlative:
+    en: oldest
+    ru: самый старый
+- id: 66
+  adjective:
+    en: strong
+    ru: сильный
+  comparative:
+    en: stronger
+    ru: сильнее
+  superlative:
+    en: strongest
+    ru: самый сильный
+- id: 67
+  adjective:
+    en: wide
+    ru: широкий
+  comparative:
+    en: wider
+    ru: шире
+  superlative:
+    en: widest
+    ru: самый широкий
+- id: 68
+  adjective:
+    en: young
+    ru: молодой
+  comparative:
+    en: younger
+    ru: моложе
+  superlative:
+    en: youngest
+    ru: самый молодой
+- id: 69
+  adjective:
+    en: bad
+    ru: плохой
+  comparative:
+    en: worse
+    ru: хуже
+  superlative:
+    en: worst
+    ru: худший
+- id: 70
+  adjective:
+    en: better
+    ru: лучше
+  comparative:
+    en: more better
+    ru: лучше
+  superlative:
+    en: most better
+    ru: наилучший
+- id: 71
+  adjective:
+    en: big
+    ru: большой
+  comparative:
+    en: bigger
+    ru: больше
+  superlative:
+    en: biggest
+    ru: самый большой
+- id: 72
+  adjective:
+    en: black
+    ru: черный
+  comparative:
+    en: blacker
+    ru: более черный
+  superlative:
+    en: blackest
+    ru: самый черный
+- id: 73
+  adjective:
+    en: certain
+    ru: определенный
+  comparative:
+    en: more certain
+    ru: более определенный
+  superlative:
+    en: most certain
+    ru: наиболее определенный
+- id: 74
+  adjective:
+    en: clear
+    ru: ясный
+  comparative:
+    en: clearer
+    ru: более ясный
+  superlative:
+    en: clearest
+    ru: наиболее ясный
+- id: 75
+  adjective:
+    en: close
+    ru: близкий
+  comparative:
+    en: closer
+    ru: ближе
+  superlative:
+    en: closest
+    ru: самый близкий
+- id: 76
+  adjective:
+    en: common
+    ru: общий
+  comparative:
+    en: more common
+    ru: более общий
+  superlative:
+    en: most common
+    ru: наиболее общий
+- id: 77
+  adjective:
+    en: difficult
+    ru: трудный
+  comparative:
+    en: more difficult
+    ru: более трудный
+  superlative:
+    en: most difficult
+    ru: наиболее трудный
+- id: 78
+  adjective:
+    en: early
+    ru: ранний
+  comparative:
+    en: earlier
+    ru: раньше
+  superlative:
+    en: earliest
+    ru: самый ранний
+- id: 79
+  adjective:
+    en: few
+    ru: несколько
+  comparative:
+    en: fewer
+    ru: меньше
+  superlative:
+    en: fewest
+    ru: наименьшее количество
+- id: 80
+  adjective:
+    en: high
+    ru: высокий
+  comparative:
+    en: higher
+    ru: выше
+  superlative:
+    en: highest
+    ru: самый высокий
+- id: 81
+  adjective:
+    en: important
+    ru: важный
+  comparative:
+    en: more important
+    ru: более важный
+  superlative:
+    en: most important
+    ru: наиболее важный
+- id: 82
+  adjective:
+    en: large
+    ru: большой
+  comparative:
+    en: larger
+    ru: больше
+  superlative:
+    en: largest
+    ru: самый большой
+- id: 83
+  adjective:
+    en: late
+    ru: поздний
+  comparative:
+    en: later
+    ru: более поздний
+  superlative:
+    en: latest
+    ru: самый поздний
+- id: 84
+  adjective:
+    en: little
+    ru: маленький
+  comparative:
+    en: littler
+    ru: меньше
+  superlative:
+    en: littlest
+    ru: самый маленький
+- id: 85
+  adjective:
+    en: local
+    ru: местный
+  comparative:
+    en: more local
+    ru: более местный
+  superlative:
+    en: most local
+    ru: наиболее местный
+- id: 86
+  adjective:
+    en: national
+    ru: национальный
+  comparative:
+    en: more national
+    ru: более национальный
+  superlative:
+    en: most national
+    ru: наиболее национальный
+- id: 87
+  adjective:
+    en: new
+    ru: новый
+  comparative:
+    en: newer
+    ru: более новый
+  superlative:
+    en: newest
+    ru: самый новый
+- id: 88
+  adjective:
+    en: old
+    ru: старый
+  comparative:
+    en: older
+    ru: старше
+  superlative:
+    en: oldest
+    ru: самый старый
+- id: 89
+  adjective:
+    en: only
+    ru: только
+  comparative:
+    en: more only
+    ru: более только
+  superlative:
+    en: most only
+    ru: наиболее только
+- id: 90
+  adjective:
+    en: other
+    ru: другой
+  comparative:
+    en: more other
+    ru: более другой
+  superlative:
+    en: most other
+    ru: наиболее другой
+- id: 91
+  adjective:
+    en: own
+    ru: собственный
+  comparative:
+    en: more own
+    ru: более собственный
+  superlative:
+    en: most own
+    ru: наиболее собственный
+- id: 92
+  adjective:
+    en: particular
+    ru: особенный
+  comparative:
+    en: more particular
+    ru: более особенный
+  superlative:
+    en: most particular
+    ru: наиболее особенный
+- id: 93
+  adjective:
+    en: personal
+    ru: личный
+  comparative:
+    en: more personal
+    ru: более личный
+  superlative:
+    en: most personal
+    ru: наиболее личный
+- id: 94
+  adjective:
+    en: physical
+    ru: физический
+  comparative:
+    en: more physical
+    ru: более физический
+  superlative:
+    en: most physical
+    ru: наиболее физический
+- id: 95
+  adjective:
+    en: political
+    ru: политический
+  comparative:
+    en: more political
+    ru: более политический
+  superlative:
+    en: most political
+    ru: наиболее политический
+- id: 96
+  adjective:
+    en: poor
+    ru: бедный
+  comparative:
+    en: poorer
+    ru: беднее
+  superlative:
+    en: poorest
+    ru: самый бедный
+- id: 97
+  adjective:
+    en: possible
+    ru: возможный
+  comparative:
+    en: more possible
+    ru: более возможный
+  superlative:
+    en: most possible
+    ru: наиболее возможный
+- id: 98
+  adjective:
+    en: present
+    ru: настоящий
+  comparative:
+    en: more present
+    ru: более настоящий
+  superlative:
+    en: most present
+    ru: наиболее настоящий
+- id: 99
+  adjective:
+    en: real
+    ru: реальный
+  comparative:
+    en: more real
+    ru: более реальный
+  superlative:
+    en: most real
+    ru: наиболее реальный
+- id: 100
+  adjective:
+    en: recent
+    ru: недавний
+  comparative:
+    en: more recent
+    ru: более недавний
+  superlative:
+    en: most recent
+    ru: наиболее недавний
+- id: 101
+  adjective:
+    en: right
+    ru: правильный
+  comparative:
+    en: more right
+    ru: более правильный
+  superlative:
+    en: most right
+    ru: наиболее правильный
+- id: 102
+  adjective:
+    en: social
+    ru: социальный
+  comparative:
+    en: more social
+    ru: более социальный
+  superlative:
+    en: most social
+    ru: наиболее социальный
+- id: 103
+  adjective:
+    en: strong
+    ru: сильный
+  comparative:
+    en: stronger
+    ru: сильнее
+  superlative:
+    en: strongest
+    ru: самый сильный
+- id: 104
+  adjective:
+    en: sure
+    ru: уверенный
+  comparative:
+    en: surer
+    ru: более уверенный
+  superlative:
+    en: surest
+    ru: наиболее уверенный
+- id: 105
+  adjective:
+    en: true
+    ru: истинный
+  comparative:
+    en: truer
+    ru: более истинный
+  superlative:
+    en: truest
+    ru: наиболее истинный
+- id: 106
+  adjective:
+    en: white
+    ru: белый
+  comparative:
+    en: whiter
+    ru: более белый
+  superlative:
+    en: whitest
+    ru: самый белый
+- id: 107
+  adjective:
+    en: whole
+    ru: целый
+  comparative:
+    en: more whole
+    ru: более целый
+  superlative:
+    en: most whole
+    ru: наиболее целый
+- id: 108
+  adjective:
+    en: wrong
+    ru: неправильный
+  comparative:
+    en: more wrong
+    ru: более неправильный
+  superlative:
+    en: most wrong
+    ru: наиболее неправильный
+- id: 109
+  adjective:
+    en: young
+    ru: молодой
+  comparative:
+    en: younger
+    ru: моложе
+  superlative:
+    en: youngest
+    ru: самый молодой
+- id: 110
+  adjective:
+    en: able
+    ru: способный
+  comparative:
+    en: more able
+    ru: более способный
+  superlative:
+    en: most able
+    ru: наиболее способный
+- id: 111
+  adjective:
+    en: aware
+    ru: осведомленный
+  comparative:
+    en: more aware
+    ru: более осведомленный
+  superlative:
+    en: most aware
+    ru: наиболее осведомленный
+- id: 112
+  adjective:
+    en: bad
+    ru: плохой
+  comparative:
+    en: worse
+    ru: хуже
+  superlative:
+    en: worst
+    ru: худший
+- id: 113
+  adjective:
+    en: best
+    ru: лучший
+  comparative:
+    en: better
+    ru: лучше
+  superlative:
+    en: best
+    ru: лучший
+- id: 114
+  adjective:
+    en: big
+    ru: большой
+  comparative:
+    en: bigger
+    ru: больше
+  superlative:
+    en: biggest
+    ru: самый большой
+- id: 115
+  adjective:
+    en: black
+    ru: черный
+  comparative:
+    en: blacker
+    ru: более черный
+  superlative:
+    en: blackest
+    ru: самый черный
+- id: 116
+  adjective:
+    en: certain
+    ru: определенный
+  comparative:
+    en: more certain
+    ru: более определенный
+  superlative:
+    en: most certain
+    ru: наиболее определенный
+- id: 117
+  adjective:
+    en: clear
+    ru: ясный
+  comparative:
+    en: clearer
+    ru: более ясный
+  superlative:
+    en: clearest
+    ru: наиболее ясный
+- id: 118
+  adjective:
+    en: common
+    ru: общий
+  comparative:
+    en: more common
+    ru: более общий
+  superlative:
+    en: most common
+    ru: наиболее общий
+- id: 119
+  adjective:
+    en: different
+    ru: разный
+  comparative:
+    en: more different
+    ru: более разный
+  superlative:
+    en: most different
+    ru: наиболее разный
+- id: 120
+  adjective:
+    en: difficult
+    ru: трудный
+  comparative:
+    en: more difficult
+    ru: более трудный
+  superlative:
+    en: most difficult
+    ru: наиболее трудный
+- id: 121
+  adjective:
+    en: early
+    ru: ранний
+  comparative:
+    en: earlier
+    ru: раньше
+  superlative:
+    en: earliest
+    ru: самый ранний
+- id: 122
+  adjective:
+    en: easy
+    ru: легкий
+  comparative:
+    en: easier
+    ru: легче
+  superlative:
+    en: easiest
+    ru: самый легкий
+- id: 123
+  adjective:
+    en: economic
+    ru: экономический
+  comparative:
+    en: more economic
+    ru: более экономический
+  superlative:
+    en: most economic
+    ru: наиболее экономический
+- id: 124
+  adjective:
+    en: federal
+    ru: федеральный
+  comparative:
+    en: more federal
+    ru: более федеральный
+  superlative:
+    en: most federal
+    ru: наиболее федеральный
+- id: 125
+  adjective:
+    en: full
+    ru: полный
+  comparative:
+    en: fuller
+    ru: более полный
+  superlative:
+    en: fullest
+    ru: наиболее полный
+- id: 126
+  adjective:
+    en: general
+    ru: общий
+  comparative:
+    en: more general
+    ru: более общий
+  superlative:
+    en: most general
+    ru: наиболее общий
+- id: 127
+  adjective:
+    en: good
+    ru: хороший
+  comparative:
+    en: better
+    ru: лучше
+  superlative:
+    en: best
+    ru: лучший
+- id: 128
+  adjective:
+    en: great
+    ru: великий
+  comparative:
+    en: greater
+    ru: больший
+  superlative:
+    en: greatest
+    ru: наибольший
+- id: 129
+  adjective:
+    en: high
+    ru: высокий
+  comparative:
+    en: higher
+    ru: выше
+  superlative:
+    en: highest
+    ru: самый высокий
+- id: 130
+  adjective:
+    en: human
+    ru: человеческий
+  comparative:
+    en: more human
+    ru: более человеческий
+  superlative:
+    en: most human
+    ru: наиболее человеческий
+- id: 131
+  adjective:
+    en: important
+    ru: важный
+  comparative:
+    en: more important
+    ru: более важный
+  superlative:
+    en: most important
+    ru: наиболее важный
+- id: 132
+  adjective:
+    en: international
+    ru: международный
+  comparative:
+    en: more international
+    ru: более международный
+  superlative:
+    en: most international
+    ru: наиболее международный
+- id: 133
+  adjective:
+    en: large
+    ru: большой
+  comparative:
+    en: larger
+    ru: больше
+  superlative:
+    en: largest
+    ru: самый большой
+- id: 134
+  adjective:
+    en: late
+    ru: поздний
+  comparative:
+    en: later
+    ru: более поздний
+  superlative:
+    en: latest
+    ru: самый поздний
+- id: 135
+  adjective:
+    en: little
+    ru: маленький
+  comparative:
+    en: littler
+    ru: меньше
+  superlative:
+    en: littlest
+    ru: самый маленький
+- id: 136
+  adjective:
+    en: local
+    ru: местный
+  comparative:
+    en: more local
+    ru: более местный
+  superlative:
+    en: most local
+    ru: наиболее местный
+- id: 137
+  adjective:
+    en: major
+    ru: главный
+  comparative:
+    en: more major
+    ru: более главный
+  superlative:
+    en: most major
+    ru: наиболее главный
+- id: 138
+  adjective:
+    en: national
+    ru: национальный
+  comparative:
+    en: more national
+    ru: более национальный
+  superlative:
+    en: most national
+    ru: наиболее национальный
+- id: 139
+  adjective:
+    en: new
+    ru: новый
+  comparative:
+    en: newer
+    ru: более новый
+  superlative:
+    en: newest
+    ru: самый новый
+- id: 140
+  adjective:
+    en: old
+    ru: старый
+  comparative:
+    en: older
+    ru: старше
+  superlative:
+    en: oldest
+    ru: самый старый
+- id: 141
+  adjective:
+    en: only
+    ru: только
+  comparative:
+    en: more only
+    ru: более только
+  superlative:
+    en: most only
+    ru: наиболее только
+- id: 142
+  adjective:
+    en: other
+    ru: другой
+  comparative:
+    en: more other
+    ru: более другой
+  superlative:
+    en: most other
+    ru: наиболее другой
+- id: 143
+  adjective:
+    en: own
+    ru: собственный
+  comparative:
+    en: more own
+    ru: более собственный
+  superlative:
+    en: most own
+    ru: наиболее собственный
+- id: 144
+  adjective:
+    en: particular
+    ru: особенный
+  comparative:
+    en: more particular
+    ru: более особенный
+  superlative:
+    en: most particular
+    ru: наиболее особенный
+- id: 145
+  adjective:
+    en: personal
+    ru: личный
+  comparative:
+    en: more personal
+    ru: более личный
+  superlative:
+    en: most personal
+    ru: наиболее личный
+- id: 146
+  adjective:
+    en: physical
+    ru: физический
+  comparative:
+    en: more physical
+    ru: более физический
+  superlative:
+    en: most physical
+    ru: наиболее физический
+- id: 147
+  adjective:
+    en: political
+    ru: политический
+  comparative:
+    en: more political
+    ru: более политический
+  superlative:
+    en: most political
+    ru: наиболее политический
+- id: 148
+  adjective:
+    en: poor
+    ru: бедный
+  comparative:
+    en: poorer
+    ru: беднее
+  superlative:
+    en: poorest
+    ru: самый бедный
+- id: 149
+  adjective:
+    en: possible
+    ru: возможный
+  comparative:
+    en: more possible
+    ru: более возможный
+  superlative:
+    en: most possible
+    ru: наиболее возможный
+- id: 150
+  adjective:
+    en: present
+    ru: настоящий
+  comparative:
+    en: more present
+    ru: более настоящий
+  superlative:
+    en: most present
+    ru: наиболее настоящий
