@@ -1,26 +1,26 @@
 require_relative 'model_base'
 
 module Verbs
-  class Verbs < ModelBase
-    def self.database_path
+  class VerbsBase < ModelBase
+    def self.data_file_path
       'data/verbs.yml'
     end
   end
 
-  class Verb < Verbs
-    def self.model_name
+  class Verb < VerbsBase
+    def self.data_key
       'verb'
     end
   end
 
-  class SimplePast < Verbs
-    def self.model_name
+  class SimplePast < VerbsBase
+    def self.data_key
       'simple_past'
     end
   end
 
-  class PastParticiple < Verbs
-    def self.model_name
+  class PastParticiple < VerbsBase
+    def self.data_key
       'past_participle'
     end
   end

@@ -3,45 +3,45 @@ require 'yaml'
 ModelBase = Struct.new(:id, :ru, :en) do
   class << self
     def all
-      @all ||= database.map do |json_hash|
+      @all ||= data.map do |json_hash|
         build_instance(json_hash)
       end
     end
 
     def find(id)
-      all.find { |model| model.id == id }
+      all.find { |instance| instance.id == id }
     end
 
     def find_by(args)
-      all.find do |model|
-        args.all? { |k, v| model.send(k) == v }
+      all.find do |instance|
+        args.all? { |k, v| instance.send(k) == v }
       end
     end
 
     def where(args)
-      all.select do |model|
-        args.all? { |k, v| model.send(k) == v }
+      all.select do |instance|
+        args.all? { |k, v| instance.send(k) == v }
       end
     end
 
     def build_instance(json_hash)
       new(
         json_hash['id'],
-        json_hash.dig(model_name, 'ru'),
-        json_hash.dig(model_name, 'en')
+        json_hash.dig(data_key, 'ru'),
+        json_hash.dig(data_key, 'en')
       )
     end
 
-    def database
-      @database ||= YAML.load_file(database_path)
+    def data
+      @data ||= YAML.load_file(data_file_path)
     end
 
-    def database_path
-      raise NotImplementedError, "Subclasses must define a 'database_path' method."
+    def data_file_path
+      raise NotImplementedError, "Subclasses must define a 'data_file_path' method."
     end
 
-    def model_name
-      raise NotImplementedError, "Subclasses must define a 'model_name' method."
+    def data_key
+      raise NotImplementedError, "Subclasses must define a 'data_key' method."
     end
   end
 end
