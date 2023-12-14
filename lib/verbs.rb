@@ -1,10 +1,8 @@
-require_relative 'model_base'
-
 module Verbs
   class VerbsBase < ModelBase
     class << self
-      def data_file_path
-        'data/verbs.yml'
+      def table_name
+        'verbs'
       end
     end
   end

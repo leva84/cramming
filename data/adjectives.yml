@@ -540,7 +540,7 @@
     ru: наиболее специальный
 - id: 55
   adjective:
-    en: true
+    en: 'true'
     ru: истинный
   comparative:
     en: truer
@@ -1040,7 +1040,7 @@
     ru: наиболее уверенный
 - id: 105
   adjective:
-    en: true
+    en: 'true'
     ru: истинный
   comparative:
     en: truer

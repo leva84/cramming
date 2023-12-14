@@ -1,5 +1,10 @@
 AllCops:
   TargetRubyVersion: 3.1.0
+  Exclude:
+    - 'db/**'
+
+Layout/SpaceInsideStringInterpolation:
+  Enabled: false
 
 Metrics/LineLength:
   Max: 120

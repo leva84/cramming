@@ -1,6 +1,22 @@
 #!/usr/bin/env ruby
 
-require_relative 'bin/main'
+if ARGV.empty?
+  require_relative 'bin/main'
+else
+  require_relative 'db/database'
+  require_relative 'db/seeds'
+
+  ARGV.each do |arg|
+    case arg
+    when 'db:create'
+      Database.setup
+    when 'db:seed'
+      Seeds.seed
+    else
+      puts "Неизвестная команда: #{arg}"
+    end
+  end
+end
 
 # Отправьте уведомление
 # system('osascript -e \'display notification "Ваше приложение запущено" with title "Cramming"\'')

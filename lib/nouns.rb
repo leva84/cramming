@@ -1,10 +1,8 @@
-require_relative 'model_base'
-
 module Nouns
   class NounsBase < ModelBase
     class << self
-      def data_file_path
-        'data/nouns.yml'
+      def table_name
+        'nouns'
       end
     end
   end

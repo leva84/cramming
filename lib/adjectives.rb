@@ -1,10 +1,8 @@
-require_relative 'model_base'
-
 module Adjectives
   class AdjectivesBase < ModelBase
     class << self
-      def data_file_path
-        'data/adjectives.yml'
+      def table_name
+        'adjectives'
       end
     end
   end
