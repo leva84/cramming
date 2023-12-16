@@ -1,8 +1,15 @@
 require 'sqlite3'
 
-ModelBase = Struct.new(:id, :ru, :en) do
+class ModelBase
+  def initialize(attributes = {})
+    attributes.each do |k, v|
+      instance_variable_set("@#{ k }", v)
+      self.class.send(:define_method, k) { instance_variable_get("@#{ k }") }
+    end
+  end
+
   def update(attributes)
-    set_clause = attributes.map { |k, _| "#{ data_key }_#{ k } = ?" }.join(', ')
+    set_clause = attributes.map { |k, _| "#{ k } = ?" }.join(', ')
 
     db.execute("UPDATE #{ table_name } SET #{ set_clause } WHERE id = ?", *attributes.values, id) == []
   end
@@ -12,13 +19,23 @@ ModelBase = Struct.new(:id, :ru, :en) do
   end
 
   class << self
+    def method_missing(name, *args, &block)
+      if attributes_keys.include?(name)
+        name
+      else
+        super
+      end
+    end
+
+    def respond_to_missing?(name, include_private = false)
+      attributes_keys.include?(name) || super
+    end
+
     def create(attributes)
-      columns = attributes.keys.map { |k| "#{ data_key }_#{ k }" }.join(', ')
+      columns = attributes.keys.map(&:to_s).join(', ')
       placeholders = Array.new(attributes.size, '?').join(', ')
 
-      db.execute("INSERT INTO #{ table_name } (#{ columns }) VALUES (#{ placeholders })", *attributes.values)
-
-      find(db.last_insert_row_id)
+      db.execute("INSERT INTO #{ table_name } (#{ columns }) VALUES (#{ placeholders })", *attributes.values) == []
     end
 
     def all
@@ -49,11 +66,19 @@ ModelBase = Struct.new(:id, :ru, :en) do
     end
 
     def build_instance(row)
-      new(*row.to_a.map(&:to_s))
+      attributes = {}
+
+      attributes_keys.each_with_index { |k, i| attributes[k] = row[i] }
+
+      new(attributes)
     end
 
     def db
-      @db ||= SQLite3::Database.new 'cramming.db'
+      Database.db
+    end
+
+    def attributes_keys
+      @attributes_keys ||= db.execute("PRAGMA table_info(#{ table_name })").map { |row| row[1].to_sym }
     end
 
     def table_name
@@ -65,17 +90,11 @@ ModelBase = Struct.new(:id, :ru, :en) do
     end
 
     def query_template
-      "SELECT id, #{ data_key }_ru, #{ data_key }_en FROM #{ table_name }"
+      @query_template ||= "SELECT #{ attributes_keys } FROM #{ table_name }"
     end
 
     def args_query(args)
-      args.map do |k, _|
-        if k == :id
-          "#{ k } = ?"
-        else
-          "#{ data_key }_#{ k } = ?"
-        end
-      end.join(' AND ')
+      args.map { |k, _| "#{ k } = ?" }.join(' AND ')
     end
   end
 
