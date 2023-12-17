@@ -1,5 +1,8 @@
 ENV['APP_ENV'] = 'test'
 
+require 'simplecov'
+SimpleCov.start
+
 require 'rspec'
 require 'pry'
 require_relative '../lib/model_base'
