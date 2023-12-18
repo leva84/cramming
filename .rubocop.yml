@@ -1,7 +1,9 @@
 AllCops:
   TargetRubyVersion: 3.1.0
-  Exclude:
-    - 'db/**'
+  Include:
+    - 'bin/**/*.rb'
+    - 'lib/**/*.rb'
+    - 'rspec/**/*.rb'
 
 Layout/SpaceInsideStringInterpolation:
   Enabled: false
