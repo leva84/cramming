@@ -1,6 +1,5 @@
 require 'sqlite3'
 require 'fileutils'
-require_relative '../lib/model_base'
 
 class Database
   class << self
@@ -58,7 +57,6 @@ class Database
     end
 
     def drop
-      # binding.pry
       FileUtils.rm(db.filename) if File.exist?(db.filename)
     end
   end

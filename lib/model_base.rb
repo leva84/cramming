@@ -1,21 +1,33 @@
 require 'sqlite3'
+require_relative '../db/database'
 
 class ModelBase
   def initialize(attributes = {})
+    self.class.validate_attributes(attributes)
+    self.class.attr_accessor(*attributes.keys)
+
     attributes.each do |k, v|
-      instance_variable_set("@#{ k }", v)
-      self.class.send(:define_method, k) { instance_variable_get("@#{ k }") }
+      send("#{ k }=", v)
     end
   end
 
   def update(attributes)
+    self.class.validate_attributes(attributes)
+
     set_clause = attributes.map { |k, _| "#{ k } = ?" }.join(', ')
 
-    db.execute("UPDATE #{ table_name } SET #{ set_clause } WHERE id = ?", *attributes.values, id) == []
+    db.execute(
+      "UPDATE #{ table_name } SET #{ set_clause } WHERE id = ?",
+      *attributes.values,
+      id
+    ) == []
   end
 
   def delete
-    db.execute("DELETE FROM #{ table_name } WHERE id = ?", id) == []
+    db.execute(
+      "DELETE FROM #{ table_name } WHERE id = ?",
+      id
+    ) == []
   end
 
   class << self
@@ -31,11 +43,22 @@ class ModelBase
       attributes_keys.include?(name) || super
     end
 
+    def validate_attributes(attributes)
+      attributes.each_key do |key|
+        raise ArgumentError, "Invalid attribute: #{ key } for #{ self }" unless attributes_keys.include?(key)
+      end
+    end
+
     def create(attributes)
+      validate_attributes(attributes)
+
       columns = attributes.keys.map(&:to_s).join(', ')
       placeholders = Array.new(attributes.size, '?').join(', ')
 
-      db.execute("INSERT INTO #{ table_name } (#{ columns }) VALUES (#{ placeholders })", *attributes.values) == []
+      db.execute(
+        "INSERT INTO #{ table_name } (#{ columns }) VALUES (#{ placeholders })",
+        *attributes.values
+      ) == []
     end
 
     def all
@@ -51,6 +74,8 @@ class ModelBase
     end
 
     def find_by(args)
+      validate_attributes(args)
+
       query = "#{ query_template } WHERE " + args_query(args)
       row = db.get_first_row(query, *args.values)
 
@@ -58,6 +83,8 @@ class ModelBase
     end
 
     def where(args)
+      validate_attributes(args)
+
       query = "#{ query_template } WHERE " + args_query(args)
 
       db.execute(query, *args.values).map do |row|

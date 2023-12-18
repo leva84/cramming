@@ -9,6 +9,9 @@ Layout/SpaceInsideStringInterpolation:
 Metrics/BlockLength:
   Max: 100
 
+Metrics/ClassLength:
+  Max: 120
+
 Metrics/LineLength:
   Max: 120
 
