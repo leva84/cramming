@@ -28,8 +28,3 @@ jobs:
         run: rubocop --config .rubocop.yml
       - name: Run tests
         run: bundle exec rspec
-        artifacts:
-          reports:
-            coverage_report:
-              coverage_format: cobertura
-              path: coverage/coverage.xml
