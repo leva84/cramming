@@ -59,7 +59,7 @@ class ModelBase
     end
 
     def all
-      @all ||= db.execute(query_template).map do |row|
+      db.execute(query_template).map do |row|
         build_instance(row)
       end
     end
