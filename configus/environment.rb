@@ -1,6 +1,7 @@
 require 'sqlite3'
 require 'fileutils'
 require 'pry'
+require 'irb'
 require_relative '../lib/model_base'
 require_relative '../lib/verbs'
 require_relative '../lib/nouns'

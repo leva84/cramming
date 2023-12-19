@@ -3,8 +3,7 @@
 if ARGV.empty?
   require_relative 'bin/main'
 else
-  require_relative 'db/database'
-  require_relative 'db/seeds'
+  require_relative 'configus/environment'
 
   ARGV.each do |arg|
     case arg
@@ -12,6 +11,9 @@ else
       Database.setup
     when 'db:seed'
       Seeds.seed
+    when 'c'
+      ARGV.clear
+      IRB.start
     else
       puts "Неизвестная команда: #{arg}"
     end
