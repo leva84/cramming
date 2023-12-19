@@ -5,6 +5,10 @@ module Adjectives
         'adjectives'
       end
 
+      def column_names_and_types
+        { id: 'INTEGER PRIMARY KEY' }
+      end
+
       def attributes_keys
         super
 
@@ -22,6 +26,15 @@ module Adjectives
       def data_key
         'adjective'
       end
+
+      def column_names_and_types
+        super.merge(
+          {
+            adjective_ru: 'VARCHAR(255)',
+            adjective_en: 'VARCHAR(255)'
+          }
+        )
+      end
     end
   end
 
@@ -30,6 +43,15 @@ module Adjectives
       def data_key
         'comparative'
       end
+
+      def column_names_and_types
+        super.merge(
+          {
+            comparative_ru: 'VARCHAR(255)',
+            comparative_en: 'VARCHAR(255)'
+          }
+        )
+      end
     end
   end
 
@@ -37,6 +59,15 @@ module Adjectives
     class << self
       def data_key
         'superlative'
+      end
+
+      def column_names_and_types
+        super.merge(
+          {
+            superlative_ru: 'VARCHAR(255)',
+            superlative_en: 'VARCHAR(255)'
+          }
+        )
       end
     end
   end

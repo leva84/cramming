@@ -28,6 +28,26 @@ class ModelBase
   end
 
   class << self
+    def create_table
+      attributes_string = column_names_and_types.map { |name, type| "#{ name } #{ type }" }.join(', ')
+
+      query = "CREATE TABLE IF NOT EXISTS #{ table_name } (#{ attributes_string });"
+
+      Database.db.execute(query)
+    end
+
+    def add_columns
+      columns = Database.db.execute("PRAGMA table_info(#{ table_name });").map { |row| row[1] }
+
+      column_names_and_types.each do |name, type|
+        next if columns.include?(name.to_s)
+
+        query = "ALTER TABLE #{ table_name } ADD COLUMN #{name} #{type};"
+
+        Database.db.execute(query)
+      end
+    end
+
     def method_missing(name, *args, &block)
       if attributes_keys.include?(name)
         name
@@ -111,6 +131,10 @@ class ModelBase
 
     def data_key
       raise NotImplementedError, "Subclasses must define a 'data_key' method."
+    end
+
+    def column_names_and_types
+      raise NotImplementedError, "Subclasses must define a 'column_names_and_types' method."
     end
 
     def query_template

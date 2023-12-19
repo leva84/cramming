@@ -5,6 +5,10 @@ module Nouns
         'nouns'
       end
 
+      def column_names_and_types
+        { id: 'INTEGER PRIMARY KEY' }
+      end
+
       def attributes_keys
         super
 
@@ -22,6 +26,15 @@ module Nouns
       def data_key
         'noun'
       end
+
+      def column_names_and_types
+        super.merge(
+          {
+            noun_ru: 'VARCHAR(255)',
+            noun_en: 'VARCHAR(255)'
+          }
+        )
+      end
     end
   end
 
@@ -29,6 +42,15 @@ module Nouns
     class << self
       def data_key
         'plural'
+      end
+
+      def column_names_and_types
+        super.merge(
+          {
+            plural_ru: 'VARCHAR(255)',
+            plural_en: 'VARCHAR(255)'
+          }
+        )
       end
     end
   end
