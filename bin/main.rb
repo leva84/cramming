@@ -1,4 +1,4 @@
-require_relative 'dependencies'
+require_relative '../configus/environment'
 
 puts 'Привет, какой режим ты хочешь выбрать?'
 puts ''
