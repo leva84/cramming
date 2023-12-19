@@ -1,9 +1,7 @@
 describe Database do
-  after { ENV['APP_ENV'] = 'test' }
-
   describe '.db' do
     context 'when the environment is test' do
-      before { ENV['APP_ENV'] = 'test' }
+      before { allow(Config).to receive(:database_name).and_return('test.db') }
 
       it 'returns a SQLite3::Database object with test.db' do
         expect(described_class.db).to be_a(SQLite3::Database)
@@ -12,7 +10,7 @@ describe Database do
     end
 
     context 'when the environment is development' do
-      before { ENV['APP_ENV'] = 'development' }
+      before { allow(Config).to receive(:database_name).and_return('cramming.db') }
 
       it 'returns a SQLite3::Database object with cramming.db' do
         expect(described_class.db).to be_a(SQLite3::Database)
@@ -21,7 +19,7 @@ describe Database do
     end
 
     context 'when the environment is not test or development' do
-      before { ENV['APP_ENV'] = 'production' }
+      before { allow(Config).to receive(:database_name).and_return('production_cramming.db') }
 
       it 'returns a SQLite3::Database object with production_cramming.db' do
         expect(described_class.db).to be_a(SQLite3::Database)
@@ -58,6 +56,8 @@ describe Database do
 
   describe '.drop' do
     let(:file_db) { described_class.db.filename }
+
+    before { allow(Config).to receive(:database_name).and_return('some_database_name.db') }
 
     it 'deletes the database file' do
       described_class.setup

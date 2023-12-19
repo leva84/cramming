@@ -1,21 +1,7 @@
-require 'sqlite3'
-require 'fileutils'
-
 class Database
   class << self
     def db
-      ENV['APP_ENV'] ||= 'development'
-
-      @db = if ENV['APP_ENV'] == 'test'
-              # Настройка для тестового окружения
-              SQLite3::Database.new 'test.db'
-            elsif ENV['APP_ENV'] == 'development'
-              # Настройка для окружения разработки
-              SQLite3::Database.new 'cramming.db'
-            else
-              # Настройка для продакшн окружения
-              SQLite3::Database.new 'production_cramming.db'
-            end
+      @db = SQLite3::Database.new(Config.database_name)
     end
 
     def setup

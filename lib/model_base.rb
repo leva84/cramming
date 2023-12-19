@@ -1,6 +1,3 @@
-require 'sqlite3'
-require_relative '../db/database'
-
 class ModelBase
   def initialize(attributes = {})
     self.class.validate_attributes(attributes)
