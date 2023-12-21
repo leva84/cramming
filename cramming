@@ -7,6 +7,8 @@ else
 
   ARGV.each do |arg|
     case arg
+    when 'db::drop'
+      Database.drop
     when 'db:create'
       Database.setup
     when 'db:seed'

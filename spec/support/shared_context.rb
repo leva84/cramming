@@ -1,12 +1,7 @@
 shared_context :with_class_methods_for_composite_model do
-  let(:data_key) { described_class.data_key }
   let(:table_name) { described_class.table_name }
 
   describe '.attributes_keys' do
-    it 'returns attribute keys that start with the data key' do
-      expect(described_class.attributes_keys - [:id]).to all(start_with(data_key))
-    end
-
     it 'has id attribute' do
       expect(described_class.attributes_keys.include?(:id)).to be_truthy
     end
@@ -14,7 +9,7 @@ shared_context :with_class_methods_for_composite_model do
 
   describe '.query_template' do
     it 'returns a query template with the correct columns' do
-      expect(described_class.query_template).to eq("SELECT id, #{ data_key }_ru, #{ data_key }_en FROM #{ table_name }")
+      expect(described_class.query_template).to eq("SELECT #{ described_class.attributes_keys.join(', ') } FROM #{ table_name }")
     end
   end
 end
@@ -41,11 +36,7 @@ shared_context :with_instance_methods_for_composite_model do
       let(:attributes) { { attribute1: 'invalid1', attribute2: 'invalid2' } }
 
       it 'returns raise error' do
-        expect { described_class.new(attributes) }
-          .to raise_error(
-            ArgumentError,
-            "Invalid attribute: #{ attributes.keys.first } for #{ described_class }"
-          )
+        expect { described_class.new(attributes) }.to raise_error(NoMethodError, /undefined method `attribute1=' for/)
       end
     end
   end
@@ -66,12 +57,7 @@ shared_context :with_instance_methods_for_composite_model do
       let(:attributes) { { attribute1: 'invalid1', attribute2: 'invalid2' } }
 
       it 'returns raise error' do
-        expect { instance.update(attributes) }
-          .to raise_error(
-            ArgumentError,
-            "Invalid attribute: #{ attributes.keys.first } for #{ described_class }"
-          )
-
+        expect { instance.update(attributes) }.to raise_error(SQLite3::SQLException, /no such column: attribute1/)
         expect(described_class.find(instance.id).send(attributes_keys.sample)).not_to eq(new_value)
       end
     end
@@ -112,11 +98,7 @@ shared_context :with_query_methods_in_the_database do
       let(:attributes) { { attribute1: 'invalid1', attribute2: 'invalid2' } }
 
       it 'returns raise error' do
-        expect { described_class.create(attributes) }
-          .to raise_error(
-            ArgumentError,
-            "Invalid attribute: #{ attributes.keys.first } for #{ described_class }"
-          )
+        expect { described_class.create(attributes) }.to raise_error(SQLite3::SQLException, /no column named attribute1/)
       end
     end
   end
@@ -171,11 +153,7 @@ shared_context :with_query_methods_in_the_database do
       let(:attributes) { { attribute1: 'invalid1', attribute2: 'invalid2' } }
 
       it 'returns raise error' do
-        expect { described_class.find_by(attributes) }
-          .to raise_error(
-            ArgumentError,
-            "Invalid attribute: #{ attributes.keys.first } for #{ described_class }"
-          )
+        expect { described_class.find_by(attributes) }.to raise_error(SQLite3::SQLException, /no such column: attribute1/)
       end
     end
   end
@@ -201,11 +179,7 @@ shared_context :with_query_methods_in_the_database do
       let(:attributes) { { attribute1: 'invalid1', attribute2: 'invalid2' } }
 
       it 'returns raise error' do
-        expect { described_class.where(attributes) }
-          .to raise_error(
-            ArgumentError,
-            "Invalid attribute: #{ attributes.keys.first } for #{ described_class }"
-          )
+        expect { described_class.where(attributes) }.to raise_error(SQLite3::SQLException, /no such column: attribute1/)
       end
     end
   end

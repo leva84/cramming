@@ -1,43 +1,19 @@
 module Verbs
   class VerbsBase < ModelBase
-    class << self
-      def table_name
-        'verbs'
-      end
-
-      def attributes_keys
-        super
-
-        @attributes_keys.select { |key| key == :id || key.to_s.start_with?("#{ data_key }_") }
-      end
-
-      def query_template
-        @query_template ||= "SELECT id, #{ data_key }_ru, #{ data_key }_en FROM #{ table_name }"
-      end
+    def self.table_name
+      'verbs'
     end
   end
 
   class Verb < VerbsBase
-    class << self
-      def data_key
-        'verb'
-      end
-    end
+    set_column_names_and_types_for_model verb_ru: 'VARCHAR(255)', verb_en: 'VARCHAR(255)'
   end
 
   class SimplePast < VerbsBase
-    class << self
-      def data_key
-        'simple_past'
-      end
-    end
+    set_column_names_and_types_for_model simple_past_ru: 'VARCHAR(255)', simple_past_en: 'VARCHAR(255)'
   end
 
   class PastParticiple < VerbsBase
-    class << self
-      def data_key
-        'past_participle'
-      end
-    end
+    set_column_names_and_types_for_model past_participle_ru: 'VARCHAR(255)', past_participle_en: 'VARCHAR(255)'
   end
 end
