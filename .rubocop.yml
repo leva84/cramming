@@ -17,6 +17,13 @@ Metrics/ClassLength:
 Metrics/LineLength:
   Max: 120
 
+Naming/AccessorMethodName:
+  Enabled: false
+
+Style/ClassVars:
+  Exclude:
+    - 'lib/model_base.rb'
+
 Style/Documentation:
   Enabled: false
 
